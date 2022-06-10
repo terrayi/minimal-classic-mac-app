@@ -1,0 +1,34 @@
+
+#define APPNAME "Test"
+
+#define cAbout 1
+#define cDeskAccessory 2
+#define cNull 0
+#define cQuit 1
+
+#define kAboutBoxAlert 128
+#define kAboutBoxDITL 128
+#define kMenuBar 128
+#define kMoveToFront (WindowPtr)-1L
+#define kWindowID 128
+
+#define mApple 128
+#define mFile 129
+
+#define ABOUTITEM "About " APPNAME
+#define FILEMENU "File"
+#define FILEQUITITEM "Quit"
+#define FILEQUITKEY "Q"
+
+#define AllItems 0b1111111111111111111111111111111
+#define MenuItem1 0b0000000000000000000000000000001
+#define MenuItem2 0b0000000000000000000000000000010
+#define MenuItem3 0b0000000000000000000000000000100
+#define MenuItem4 0b0000000000000000000000000001000
+#define MenuItem5 0b0000000000000000000000000010000
+#define MenuItem6 0b0000000000000000000000000100000
+#define MenuItem7 0b0000000000000000000000001000000
+#define MenuItem8 0b0000000000000000000000010000000
+#define MenuItem9 0b0000000000000000000000100000000
+#define MenuItem10 0b0000000000000000000001000000000
+
